@@ -1,0 +1,11 @@
+gemini-llm-demo
+index.html
+style.css
+script.js
+# Gemini LLM Demo
+A simple web app that connects to Google's Gemini API.
+gemini-llm-demo/
+├── index.html
+├── style.css
+├── script.js
+└── README.md
