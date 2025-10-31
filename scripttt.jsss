@@ -1,0 +1,13 @@
+const thinkingMsg = document.createElement("div");
+thinkingMsg.classList.add("message", "bot");
+thinkingMsg.textContent = "Thinking...";
+chatBox.appendChild(thinkingMsg);
+const thinkingMsg = document.createElement("div");
+thinkingMsg.classList.add("message", "bot");
+
+const typingDots = document.createElement("span");
+typingDots.classList.add("typing");
+thinkingMsg.appendChild(typingDots);
+
+chatBox.appendChild(thinkingMsg);
+chatBox.scrollTop = chatBox.scrollHeight;
